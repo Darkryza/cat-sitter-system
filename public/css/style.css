@@ -1,6 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/andy-bear');
+@import url('https://fonts.cdnfonts.com/css/arch-rival');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(179,9,71);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.logo{
+    margin-top: 100px;
+    height: 300px;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    height: 320px
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navbar-list li{
+    margin-left: 50px;
+    transition: 0.2s ease;
+}
+
+.navbar-list li:hover{
+    background-color: rgb(105, 13, 13);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar-list li a{
+    font-family: 'Andy Bear', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container{
+    height: 100vh;
+}
+
+.hero1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+    position: absolute;
+}
+
+.hero1 .title{
+    font-family: 'SF Arch Rival Extended', sans-serif;
+    font-family: 'SF Arch Rival', sans-serif;
+    font-size: 180px;
+    color: #c86e86;
+    -webkit-text-stroke: 3px #640a22;
+}
+
+.hero2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-us{
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #b30946;
+}
+
+.cat{
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    right: 10px;
 }
