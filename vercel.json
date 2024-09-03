@@ -9,6 +9,7 @@
         "dest": "/api/index.php"
     }],
     "env": {
+        "APP_KEY": "base64:1/3lUX5GP04f07mhO0HTZ/piA59VBwgrLX+EiHucZjU=",
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://yourprojectdomain.com",
