@@ -165,7 +165,14 @@
                     </div>
                 </div>
                 <div class="alert-notice">
-
+                    <div class="big-cat">
+                        <img src="{{ asset('images/big-cat.png') }}" alt="big-cat" class="big-cat-img">
+                        <p class="title">ALERT  !!</p>
+                        <p class="text">PRICE FOR 1 <br>PAX ONLY</p>
+                    </div>
+                    <div class="big-cat-desc">
+                        <p>This price applies to a single cat. <br>But for a better deal, check out our <br>available package options!</p>
+                    </div>
                 </div>
             </div>
         </div>

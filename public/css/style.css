@@ -218,25 +218,27 @@ nav{
 }
 
 .service-lists{
-    width: 50%;
+    width: 70%;
     min-height: 500px;
     height: auto;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .alert-notice{
     width: 50%;
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
     height: auto;
-    background-color: #be20577d;
 }
 
 .card-service{
-    width: 400px;
+    width: 450px;
     height: 150px;
     background-color: #b3094748;
     border-radius: 30px;
@@ -269,4 +271,46 @@ nav{
     width: 200px;
     height: auto;
     padding: 5px;
+}
+
+.big-cat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -180px;
+}
+
+.big-cat-img{
+    position: absolute;
+    z-index: 1;
+    height: 600px;
+}
+
+.big-cat .title{
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.big-cat .text{
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.big-cat-desc{
+    display: flex;
+    justify-content: center;
+}
+
+.big-cat-desc p{
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.5;
 }
