@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Times New Roman', Times, serif;
+    color: #b30946;
 }
 
 body{
@@ -84,7 +85,7 @@ nav{
     justify-content: center;
 }
 
-.title{
+.welcome-title{
     font-family: 'SF Arch Rival Extended', sans-serif;
     font-family: 'SF Arch Rival', sans-serif;
     font-size: 150px;
@@ -100,7 +101,7 @@ nav{
     height: 300px;
 }
 
-.about-us-container{
+.container{
     position: absolute;
     margin-top: 120px;
     width: 100%;
@@ -110,9 +111,8 @@ nav{
     justify-content: center;
 }
 
-.about-us-title{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+.title{
+    font-size: 50px;
     color: #b30946;
     text-align: center;
 }
@@ -128,20 +128,145 @@ nav{
 }
 
 .about-us-text h2{
-    font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 50px;
 }
 
 .about-us-text h2 span{
     color: #b30946;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .about-us-text p{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 30px;
     line-height: 1.5;
+}
+
+.sub-title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.list-packages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.package-item
+{
+    margin-top: 50px;
+    min-height: 450px;
+    height: auto;
+    width: 400px;
+    background-color: #c86e8668;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.package-item h3{
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price h2{
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+    background-color: #be2057;
+    border-radius: 20px;
+}
+
+.desc{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.package-item ul{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.package-item ul li{
+    color: white;
+    font-size: 30px;
+}
+
+.alacarte-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px;
+}
+
+.service-lists{
+    width: 50%;
+    min-height: 500px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.alert-notice{
+    width: 50%;
+    min-height: 500px;
+    height: auto;
+    background-color: #be20577d;
+}
+
+.card-service{
+    width: 400px;
+    height: 150px;
+    background-color: #b3094748;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.service-img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.service-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+}
+
+.service-desc p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.service-desc .price h2{
+    width: 200px;
+    height: auto;
+    padding: 5px;
 }
