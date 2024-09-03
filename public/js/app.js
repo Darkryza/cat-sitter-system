@@ -9,3 +9,9 @@ window.onscroll = () => {
         let id = sec.getAttribute('id');
     });
 };
+
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'block';
+    
+}
