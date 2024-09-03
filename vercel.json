@@ -7,7 +7,14 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php"
-    }],
+    },
+    { 
+        "src": "/images/(.*)", "dest": "/public/images/" 
+    },
+    { 
+        "src": "/css/(.*)", "dest": "/public/css/" 
+    }
+    ],
     "env": {
         "APP_KEY": "base64:1/3lUX5GP04f07mhO0HTZ/piA59VBwgrLX+EiHucZjU=",
         "APP_ENV": "production",
