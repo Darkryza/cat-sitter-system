@@ -62,16 +62,8 @@ nav{
     font-weight: bold;
 }
 
-.container{
+.hero{
     height: 100vh;
-}
-
-.hero1{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .bg{
@@ -84,7 +76,14 @@ nav{
     position: absolute;
 }
 
-.hero1 .title{
+.welcome-title{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
     font-family: 'SF Arch Rival Extended', sans-serif;
     font-family: 'SF Arch Rival', sans-serif;
     font-size: 180px;
@@ -92,23 +91,24 @@ nav{
     -webkit-text-stroke: 3px #640a22;
 }
 
-.hero2{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.about-us{
-    margin-top: 150px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: #b30946;
-}
-
 .cat{
     position: absolute;
     z-index: 1;
-    margin-top: 50px;
     right: 10px;
+    margin-top: 30px;
 }
+
+.about-us-container{
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+}
+
+.about-us-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #b30946;
+    text-align: center;
+}
+
+.about-us-text{}
