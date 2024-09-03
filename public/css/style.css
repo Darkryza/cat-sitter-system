@@ -6,11 +6,13 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     color: #b30946;
+    scroll-behavior: smooth;
 }
 
 body{
     width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 nav{

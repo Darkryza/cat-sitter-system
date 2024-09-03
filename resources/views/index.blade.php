@@ -3,10 +3,12 @@
     <nav>
         <a href="#"><img src="{{ asset('images/LOGO-removebg-preview.png') }}" alt="logo" class="logo"></a>
         <ul class="navbar-list">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Package</a></li>
-            <li><a href="#">Apply</a></li>
-            <li><a href="#">More</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#package">Package</a></li>
+            <li><a href="#ala-carte">Apply</a></li>
+            <li>
+                <a href="#">More</a>
+            </li>
         </ul>
     </nav>
     <div class="hero">
@@ -15,7 +17,7 @@
             <h1 class="welcome-title">WELCOME TO <br> CAT SITTER</h1>
         </div>
     </div>
-    <div class="hero">
+    <div class="hero" id="about">
         <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
         <img src="{{ asset('images/cat.png') }}" alt="cat" class="cat">
         <div class="container">
@@ -30,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="hero">
+    <div class="hero" id="package">
         <img src="{{ asset('images/bg2.jpg') }}" alt="bg" class="bg">
         <div class="container package">
             <h2 class="title">VALUABLE PACKAGE </h2>
