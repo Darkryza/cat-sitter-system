@@ -297,7 +297,7 @@ nav{
 }
 
 .big-cat .text{
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     z-index: 1;
     text-align: center;
@@ -310,7 +310,7 @@ nav{
 }
 
 .big-cat-desc p{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     line-height: 1.5;
 }
