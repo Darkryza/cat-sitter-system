@@ -192,7 +192,7 @@ nav{
     margin-top: 50px;
     min-height: 450px;
     height: auto;
-    width: 400px;
+    width: auto;
     background-color: #c86e8668;
     text-align: center;
     padding: 50px;
@@ -220,7 +220,7 @@ nav{
 
 .desc{
     width: 80%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -243,15 +243,12 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
     padding: 50px;
 }
 
 .service-lists{
     width: 70%;
-    min-height: 500px;
     height: auto;
-    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -343,4 +340,61 @@ nav{
     font-size: 30px;
     text-align: center;
     line-height: 1.5;
+}
+
+@media screen and (max-width: 1600px) {
+    .about-us-text h2{
+        font-size: 30px;
+    }
+
+    .about-us-text p{
+        font-size: 20px;
+    }
+
+    .package-item{
+        min-height: 200px;
+    }
+
+    .package-item h3{
+        font-size: 30px;
+    }
+    
+    .package-item ul li{
+        font-size: 20px;
+    }
+
+    .service-lists{
+        gap: 10px;
+    }
+
+    .card-service{
+        width: auto;
+        height: 100px;
+    }
+
+    .service-img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .service-desc p{
+        font-size: 15px;
+    }
+
+    .service-desc .price h2{
+        font-size: 15px;
+    }
+
+
+    .big-cat-img{
+        height: 400px;
+    }
+
+    .big-cat .title{
+        font-size: 20px;
+    }
+
+    .big-cat .text{
+        font-size: 10px;
+    }
 }
