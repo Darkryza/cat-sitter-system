@@ -29,7 +29,7 @@
             <div class="about-us-text">
                 <h2>Welcome to  <span> CAT SITTER !</span></h2>
                 <p>
-                    We understand that your cats are more than just pets – they’re family. That’s why we offer a dedicated in-home cat-sitting service that provides peace of mind when you can’t be there. Whether you’re traveling, busy at work, or simply need a helping hand, we’re here to make sure your feline friends are well taken care of in the comfort of their own home. <br><br>
+                    .We understand that your cats are more than just pets – they’re family. That’s why we offer a dedicated in-home cat-sitting service that provides peace of mind when you can’t be there. Whether you’re traveling, busy at work, or simply need a helping hand, we’re here to make sure your feline friends are well taken care of in the comfort of their own home. <br><br>
                     Our approach is simple: provide loving, reliable, and personalized care tailored to each cat’s unique personality and needs. From feeding and playtime to administering medication or simply providing comforting company, we treat every cat with the same attention and affection we would give our own. <br><br>
                     Let us help you keep your cats happy, healthy, and stress-free while you’re away. Because when it comes to your cats, they deserve nothing but the best.
                 </p>
