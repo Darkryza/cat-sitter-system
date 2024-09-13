@@ -12,7 +12,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#package">Package</a></li>
             <li><a href="#ala-carte">Apply</a></li>
-            <li onclick="showSidebar()"><a href="">More</a></li>
+            <li onclick="showSidebar()">More</li>
         </ul>
     </nav>
     <div class="hero">

@@ -58,12 +58,13 @@ nav{
     border-radius: 10px;
 }
 
-.navbar-list li a{
+.navbar-list li a, .navbar-list li{
     font-family: 'Andy Bear', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .sidebar{
