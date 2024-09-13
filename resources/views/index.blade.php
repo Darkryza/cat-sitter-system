@@ -3,16 +3,16 @@
     <nav>
         <a href="#"><img src="{{ asset('images/LOGO-removebg-preview.png') }}" alt="logo" class="logo"></a>
         <ul class="sidebar">
-            <li>Feedback</li>
-            <li>Photo Album</li>
-            <li>Our Team</li>
-            <li>Contact Us</li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Photo Album</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Contact Us</a></li>
         </ul>
         <ul class="navbar-list">
             <li><a href="#about">About</a></li>
             <li><a href="#package">Package</a></li>
             <li><a href="#ala-carte">Apply</a></li>
-            <li onclick="showSidebar()"><a href="#">More</a></li>
+            <li onclick="showSidebar()"><a href="">More</a></li>
         </ul>
     </nav>
     <div class="hero">

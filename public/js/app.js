@@ -12,6 +12,11 @@ window.onscroll = () => {
 
 function showSidebar(){
     const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display = 'block';
     
+    // Check if the sidebar is currently displayed
+    if (sidebar.style.display === 'block') {
+        sidebar.style.display = 'none'; // Close the sidebar
+    } else {
+        sidebar.style.display = 'block'; // Open the sidebar
+    }
 }
