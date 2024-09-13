@@ -10,7 +10,9 @@ window.onscroll = () => {
     });
 };
 
-function showSidebar(){
+function showSidebar(event){
+    event.preventDefault();
+
     const sidebar = document.querySelector('.sidebar');
     
     // Check if the sidebar is currently displayed
