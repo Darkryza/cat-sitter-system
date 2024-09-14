@@ -18,7 +18,7 @@
     <div class="hero">
         <img src="{{ asset('images/bg1.jpg') }}" alt="bg" class="bg">
         <div class="welcome-title">
-            <h1 class="welcome-title">WELCOME TO <br> CAT SITTER!</h1>
+            <h1 class="welcome-title">WELCOME TO <br> CAT SITTER</h1>
         </div>
     </div>
     <div class="hero" id="about">
