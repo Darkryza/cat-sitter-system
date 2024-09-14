@@ -23,12 +23,16 @@ function showSidebar(event){
     }
 }
 
+const moreButton = document.querySelector('#moreButton'); // Select by ID
+
 document.addEventListener('click', function(event) {
     const sidebar = document.querySelector('.sidebar');
-    const moreButton = document.querySelector('li[onclick="showSidebar()"]');
     
-    // Check if the click is outside the sidebar and the "More" button
-    if (!sidebar.contains(event.target) && !moreButton.contains(event.target)) {
-        sidebar.style.display = 'none'; // Close the sidebar
+    // Ensure both sidebar and moreButton exist before using them
+    if (sidebar && moreButton) {
+        // Check if the click is outside the sidebar and the "More" button
+        if (!sidebar.contains(event.target) && !moreButton.contains(event.target)) {
+            sidebar.style.display = 'none'; // Close the sidebar
+        }
     }
 });
