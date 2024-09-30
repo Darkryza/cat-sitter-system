@@ -11,7 +11,7 @@
         <ul class="navbar-list">
             <li><a href="#about">About</a></li>
             <li><a href="#package">Package</a></li>
-            <li><a href="#ala-carte">Apply</a></li>
+            <li><a href="#ala-carte">Ala Carte</a></li>
             <li id="moreButton" onclick="showSidebar(event)"><a href="#">More</a></li>
         </ul>
     </nav>
@@ -108,7 +108,7 @@
             </div>
         </div>
     </div>
-    <div class="hero">
+    <div class="hero" id='ala-carte'>
         <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
         <div class="container">
             <h2 class="title">ALA CARTE</h2>
