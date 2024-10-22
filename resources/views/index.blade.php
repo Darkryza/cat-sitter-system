@@ -23,10 +23,10 @@
     </div>
     <div class="hero" id="about">
         <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
-        <img src="{{ asset('images/cat.png') }}" alt="cat" class="cat">
         <div class="container">
             <h2 class="title">ABOUT US</h2>
             <div class="about-us-text">
+                <img src="{{ asset('images/cat.png') }}" alt="cat" class="cat">
                 <h2>Welcome to  <span> CAT SITTER !</span></h2>
                 <p>
                     .We understand that your cats are more than just pets – they’re family. That’s why we offer a dedicated in-home cat-sitting service that provides peace of mind when you can’t be there. Whether you’re traveling, busy at work, or simply need a helping hand, we’re here to make sure your feline friends are well taken care of in the comfort of their own home. <br><br>
@@ -47,14 +47,12 @@
                     <div class="price">
                         <h2>RM30</h2>
                     </div>
-                    <div class="desc">
-                        <ul>
-                            <li>ajldnalwjdn</li>
-                            <li>ajldnalwjdn</li>
-                            <li>ajldnalwjdn</li>
-                            <li>ajldnalwjdn</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li>ajldnalwjdn</li>
+                        <li>ajldnalwjdn</li>
+                        <li>ajldnalwjdn</li>
+                        <li>ajldnalwjdn</li>
+                    </ul>
                 </div>
                 <div class="package-item">
                     <h3>PACK B</h3>
@@ -110,74 +108,68 @@
     </div>
     <div class="hero" id='ala-carte'>
         <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
-        <div class="container">
-            <h2 class="title">ALA CARTE</h2>
-            <p class="sub-title">Not interested in a package deal ? No problem ! <br>You can pick individual items à la carte.</p>
-            <div class="alacarte-items">
-                <div class="service-lists">
-                    <div class="card-service">
-                        <img src="{{ asset('images/poop-cat.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>POOP <br>CLEANING</p>
-                            <div class="price">
-                                <h2>RM15</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-service">
-                        <img src="{{ asset('images/area-cleaning.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>AREA <br>CLEANING</p>
-                            <div class="price">
-                                <h2>RM5</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-service">
-                        <img src="{{ asset('images/feeding.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>FEEDING</p>
-                            <div class="price">
-                                <h2>RM5</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-service">
-                        <img src="{{ asset('images/pampering.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>PAMPERING</p>
-                            <div class="price">
-                                <h2>RM5</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-service">
-                        <img src="{{ asset('images/bathing.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>BATHING</p>
-                            <div class="price">
-                                <h2>RM5</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-service">
-                        <img src="{{ asset('images/clipping nail.png') }}" alt="" class="service-img">
-                        <div class="service-desc">
-                            <p>CLIPPING <br>NAIL</p>
-                            <div class="price">
-                                <h2>RM5</h2>
-                            </div>
-                        </div>
-                    </div>
+        <div class="main">
+            <div class="container">
+                <div class="ala-carte-title">
+                    <h2 class="title">Ala Carte</h2>
+                    <p class="sub-title">
+                        Not interested in a package deal ? No problem ! You can pick individual items à la carte.
+                    </p>
                 </div>
-                <div class="alert-notice">
-                    <div class="big-cat">
-                        <img src="{{ asset('images/big-cat.png') }}" alt="big-cat" class="big-cat-img">
-                        <p class="title">ALERT  !!</p>
-                        <p class="text">PRICE FOR 1 <br>PAX ONLY</p>
-                    </div>
-                    <div class="big-cat-desc">
-                        <p>This price applies to a single cat. <br>But for a better deal, check out our <br>available package options!</p>
+                <div class="ala-carte-items">
+                    <div class="left">
+                        <div class="services">
+                            <div class="service-card">
+                                <img src="{{ asset("images/poop-cat.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Poop cleaning</p>
+                                    <p class="price">RM15</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <img src="{{ asset("images/area-cleaning.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Area cleaning</p>
+                                    <p class="price">RM5</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <img src="{{ asset("images/feeding.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Feeding</p>
+                                    <p class="price">RM5</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <img src="{{ asset("images/pampering.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Pampering</p>
+                                    <p class="price">RM5</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <img src="{{ asset("images/bathing.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Bathing</p>
+                                    <p class="price">RM5</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <img src="{{ asset("images/clipping nail.png") }}" alt="">
+                                <div class="info">
+                                    <p class="title">Clipping nail</p>
+                                    <p class="price">RM5</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    <div class="right">
+                        <div class="big-cat">
+                            <img src="{{ asset("images/big-cat.png") }}">
+                            <p><span>ALERT !!</span><br>Price for 1 pax only</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

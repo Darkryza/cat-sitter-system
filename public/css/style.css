@@ -79,7 +79,7 @@ nav{
     display: block;
     z-index: 999;
     display: none;
-    transition: 1s ease-out;
+    transition: all 0.1s ease;
 }
 
 .sidebar li{
@@ -137,9 +137,9 @@ nav{
 .cat{
     position: absolute;
     z-index: 1;
-    right: 10px;
-    margin-top: 50px;
-    height: 300px;
+    right: 0;
+    top: -90px;
+    height: 200px;
 }
 
 .container{
@@ -153,24 +153,28 @@ nav{
 }
 
 .title{
-    font-size: 50px;
+    display: block;
+    width: 100%;
+    font-size: 40px;
     color: #b30946;
     text-align: center;
 }
 
 .about-us-text{
-    width: 80%;
-    background-color: #c86e862e;
     position: relative;
-    margin-top: 50px;
+    width: 80%;
+    background-color: #98556657;
+    position: relative;
+    margin-top: 30px;
     padding: 20px;
     border-radius: 20px;
+
     text-align: center;
 }
 
 .about-us-text h2{
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .about-us-text h2 span{
@@ -179,7 +183,7 @@ nav{
 
 .about-us-text p{
     color: white;
-    font-size: 30px;
+    font-size: 22px;
     margin-top: 30px;
     line-height: 1.5;
 }
@@ -187,32 +191,24 @@ nav{
 .sub-title{
     text-align: center;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .list-packages{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px 50px;
 }
 
 .package-item
 {
-    margin-top: 50px;
-    min-height: 450px;
-    height: auto;
-    width: auto;
     background-color: #c86e8668;
     text-align: center;
-    padding: 50px;
     border-radius: 20px;
-}
-
-.package-item h3{
-    font-size: 40px;
-    margin-top: -30px;
+    padding: 10px 10px;
+    font-size: 20px;
 }
 
 .price{
@@ -221,191 +217,112 @@ nav{
     justify-content: center;
 }
 
-.price h2{
+.package-item h3{
     margin-top: 10px;
+}
+
+.price h2{
+    margin: 20px 0;
     color: white;
     width: 80%;
     background-color: #be2057;
     border-radius: 20px;
 }
 
-.desc{
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-    
-}
-
 .package-item ul{
-    margin-top: 20px;
-    width: 80%;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 .package-item ul li{
     color: white;
-    font-size: 30px;
 }
 
-.alacarte-items{
+.ala-carte-title{
+    display: block;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 50px;
 }
 
-.service-lists{
-    width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
+.ala-carte-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    column-gap: 5px;
+    padding: 20px;
 }
 
-.alert-notice{
-    width: 50%;
-    min-height: 500px;
-    display: flex;
-    flex-direction: column;
-    height: auto;
+.ala-carte-items .left{
+    display: block;
+    width: 100%;
 }
 
-.card-service{
-    width: 450px;
-    height: 150px;
-    background-color: #b3094748;
-    border-radius: 30px;
+.ala-carte-items .right{
+    display: block;
+    width: 100%;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.service-card{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    background-color: rgba(179, 9, 71, 0.207);
+    border-radius: 20px;
     padding: 10px;
-    display: flex;
-    flex-direction: row;
 }
 
-.service-img{
-    height: 130px;
-    width: 130px;
+.service-card img{
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    margin: 5px;
 }
 
-.service-desc{
+.service-card .info{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.info .title{
+    color: rgb(179, 9, 70);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.info .price{
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: rgb(179, 9, 70);
     width: 80%;
-    text-align: center;
+    margin-top: 10px;
+    border-radius: 50px;
 }
 
-.service-desc p{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.service-desc .price h2{
-    width: 200px;
-    height: auto;
-    padding: 5px;
+.right{
+    position: relative;
 }
 
 .big-cat{
+    position: relative;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -180px;
 }
 
-.big-cat-img{
+.big-cat img{
     position: absolute;
-    z-index: 1;
-    height: 600px;
+    width: 1000px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    margin-left: -200px;
+    margin-top: -100px;
 }
 
-.big-cat .title{
-    position: absolute;
-    z-index: 1;
-    margin-top: 200px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.big-cat .text{
-    font-size: 20px;
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    margin-top: 250px;
-}
-
-.big-cat-desc{
-    display: flex;
-    justify-content: center;
-}
-
-.big-cat-desc p{
-    font-size: 30px;
-    text-align: center;
-    line-height: 1.5;
-}
-
-@media screen and (max-width: 1600px) {
-    .about-us-text h2{
-        font-size: 30px;
-    }
-
-    .about-us-text p{
-        font-size: 20px;
-    }
-
-    .package-item{
-        min-height: 200px;
-    }
-
-    .package-item h3{
-        font-size: 30px;
-    }
-    
-    .package-item ul li{
-        font-size: 20px;
-    }
-
-    .service-lists{
-        gap: 10px;
-    }
-
-    .card-service{
-        width: auto;
-        height: 100px;
-    }
-
-    .service-img{
-        height: 60px;
-        width: 60px;
-    }
-
-    .service-desc p{
-        font-size: 15px;
-    }
-
-    .service-desc .price h2{
-        font-size: 15px;
-    }
-
-
-    .big-cat-img{
-        height: 400px;
-    }
-
-    .big-cat .title{
-        font-size: 20px;
-    }
-
-    .big-cat .text{
-        font-size: 10px;
-    }
-}
