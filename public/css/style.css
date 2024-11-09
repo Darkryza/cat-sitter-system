@@ -91,6 +91,7 @@ nav{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    margin: 10px;
 }
 
 .sidebar li a{
@@ -329,4 +330,34 @@ nav{
     border-radius: 20px;
     padding: 10px;
     font-size: 1.5rem;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.team-card{
+    background-color: rgba(179, 9, 71, 0.207);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.team-card .card-title{
+    color: white;
+    font-size: 2rem;
+    font-size: 500;
+    margin-bottom: 10px;
+}
+
+.team-card p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.team-container img{
+    height: auto;
+    width: 500px;
 }

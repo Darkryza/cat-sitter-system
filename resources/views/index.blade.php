@@ -3,10 +3,8 @@
     <nav>
         <a href="#"><img src="{{ asset('images/LOGO-removebg-preview.png') }}" alt="logo" class="logo"></a>
         <ul class="sidebar">
-            <li><a href="">Feedback</a></li>
-            <li><a href="">Photo Album</a></li>
-            <li><a href="">Our Team</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
         <ul class="navbar-list">
             <li><a href="#about">About</a></li>
@@ -167,6 +165,31 @@
                     <div class="right">
                         <img src="{{ asset("images/big-cat.png") }}">
                         <p class="big-cat-text"><span>ALERT !!</span><br>Price for 1 pax only</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero" id='team'>
+        <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
+        <div class="main">
+            <div class="container">
+                <div class="team-title">
+                    <h2 class="title">MEET THE TEAM</h2>
+                </div>
+                <div class="team-container">
+                    <div class="team-card">
+                        <h3 class="card-title">Owner</h3>
+                        <p>
+                            Hi there! I’m Nisa, and I’ve been passionate about cats for as long as I can remember. With 3 years of experience, I’ve made it my mission to provide personalized care that makes every cat feel safe, happy, and loved. When you can’t be there, I’m here to make sure your feline family members are in the best hands.
+                        </p>
+                    </div>
+                    <img src="{{ asset('images/team.png') }}" alt="">  
+                    <div class="team-card">
+                        <h3 class="card-title">ASSISTANT</h3>
+                        <p>
+                            Hi, I’m Fakhrul, her partner in crime a.k.a her beloved husband. I’m a lifelong animal lover with a special place in my heart for cats. I love creating a calm and playful environment for every kitty I meet. My goal is to make sure your cat feels comfortable and cared for while you're away.
+                        </p>
                     </div>
                 </div>
             </div>
