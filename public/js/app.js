@@ -10,6 +10,10 @@ window.onscroll = () => {
     });
 };
 
+// create a function when click #moreButton, add class .show in .sidebar class
+
+
+
 function showSidebar(event){
     event.preventDefault();
 
@@ -36,3 +40,4 @@ document.addEventListener('click', function(event) {
         }
     }
 });
+
