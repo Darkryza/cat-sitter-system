@@ -259,6 +259,7 @@ nav{
 .ala-carte-items .right{
     display: block;
     width: 100%;
+    position: relative;
 }
 
 .services{
@@ -308,21 +309,24 @@ nav{
 
 .right{
     position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
-.big-cat{
-    position: relative;
-    width: 100%;
+.right img{
     height: 100%;
 }
 
-.big-cat img{
+.right .big-cat-text{
     position: absolute;
-    width: 1000px;
-    height: 500px;
-    top: 0;
-    left: 0;
-    margin-left: -200px;
-    margin-top: -100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffffd8;
+    border: 3px solid #640a22;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
 }
-

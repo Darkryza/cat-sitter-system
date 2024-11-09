@@ -165,11 +165,8 @@
                         </div>
                         
                     <div class="right">
-                        <div class="big-cat">
-                            <img src="{{ asset("images/big-cat.png") }}">
-                            <p><span>ALERT !!</span><br>Price for 1 pax only</p>
-                        </div>
-                        
+                        <img src="{{ asset("images/big-cat.png") }}">
+                        <p class="big-cat-text"><span>ALERT !!</span><br>Price for 1 pax only</p>
                     </div>
                 </div>
             </div>
