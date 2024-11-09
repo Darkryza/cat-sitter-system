@@ -195,4 +195,50 @@
             </div>
         </div>
     </div>
+    <div class="hero" id='contact'>
+        <img src="{{ asset('images/bg2.jpg') }}" alt="" class="bg">
+        <div class="main">
+            <div class="container">
+                <div class="contact-title">
+                    <h2 class="title">CONTACT US</h2>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-item">
+                        <img src="{{ asset('images/whatsapp.png') }}" alt="">
+                        <div class="contact-text">
+                            <h3 class="contact-title">WHATSAPP</h3>
+                            <p>011-37719123</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-text">
+                            <h3 class="contact-title">TIKTOK</h3>
+                            <p>@catsitterkl</p>
+                        </div>
+                        <img src="{{ asset('images/tiktok.png') }}" alt="">
+                    </div>
+                    <div class="contact-item">
+                        <img src="{{ asset('images/facebook.png') }}" alt="">
+                        <div class="contact-text">
+                            <h3 class="contact-title">FACEBOOK</h3>
+                            <p>@catsitterkl</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-text">
+                            <h3 class="contact-title">INSTAGRAM</h3>
+                            <p>@catsitterkl</p>
+                        </div>
+                        <img src="{{ asset('images/instagram.png') }}" alt="">
+                    </div>
+                    <img src="{{ asset('images/contact-cat.png') }}" alt="" class="contact-cat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cat Sitter. All rights reserved.</p>
+        </div>
+    </footer>
 @endsection
